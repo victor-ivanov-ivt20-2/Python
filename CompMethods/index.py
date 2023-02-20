@@ -1,7 +1,6 @@
 from gauss import Gauss
 from cholesky import Cholesky
 
-
 def GaussInit():
     GaussN = 3
     GaussA = [
@@ -68,7 +67,6 @@ def CholeskyInit():
     print("Ответ по методу Холецкого:")
     for i in range(len(CholeskyAnswer)):
         print("x[" + str(i + 1) + "] =", CholeskyAnswer[i])
-
 
 ChooseMethod = input("Метод Гаусса - 1\nМетод Холецкого - 2\n\t")
 if (int(ChooseMethod) == 1):
